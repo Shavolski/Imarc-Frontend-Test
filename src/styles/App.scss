@@ -5,3 +5,13 @@ $pallete_4: #EBE9DF;
 $pallete_5: #F0AE43;
 $pallete_6: #DB5935;
 $pallete_7: #DA3467;
+
+.bold_text{
+  color: $pallete_1;
+  &:hover {
+      color:$pallete_7;
+  }
+}
+.trial_button{
+  background-color: $pallete_6;
+}
