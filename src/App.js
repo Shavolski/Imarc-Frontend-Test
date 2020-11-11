@@ -4,7 +4,7 @@ import Landing_page from './components/section_2_landing_page.js';
 
 function App() {
   return (
-    <div>
+    <div className="font-body">
       <Navbar/>
       <Landing_page/>
     </div>
