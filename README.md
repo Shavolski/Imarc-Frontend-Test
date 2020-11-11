@@ -18,6 +18,10 @@ Github | Heroku
 I checked the file and separated them into sections that will be converted to components.
 ![pic 1](src/instruction_images/1.png)
 
+### Step 2
+Created those components and named them after the sections form adobe for easier documenting. 
+![pic 1](src/instruction_images/2.png)
+
 ## Here's my contact info in case you have more queries.
 * **[stevemarvins.dev@gmail.com](https://www.stevemarvins.dev@gmail.com/)**
 * **[LinkedIn](https://www.linkedin.com/in/stevemarvins-dev)**
