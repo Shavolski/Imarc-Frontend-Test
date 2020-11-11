@@ -19,8 +19,12 @@ I checked the file and separated them into sections that will be converted to co
 ![pic 1](src/instruction_images/1.png)
 
 ### Step 2
-Created those components and named them after the sections form adobe for easier documenting. 
+Created those components and named them after the sections form adobe for easier documenting.
 ![pic 1](src/instruction_images/2.png)
+
+### Step 3
+Imported assets from adobe xd that will be used in components.
+![pic 1](src/instruction_images/3.png)
 
 ## Here's my contact info in case you have more queries.
 * **[stevemarvins.dev@gmail.com](https://www.stevemarvins.dev@gmail.com/)**
