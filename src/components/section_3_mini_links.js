@@ -9,3 +9,5 @@ function Mini() {
     </div>
   );
 };
+
+export default Mini;
