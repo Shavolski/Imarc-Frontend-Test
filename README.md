@@ -1,6 +1,10 @@
 ## Hello!
 This will be your guide to show you my thought process when handling this task.
 
+### Time
+Start | 11:08AM
+End | ...ongoing..
+
 ### Served and deployed on...
 Github | Heroku
 
