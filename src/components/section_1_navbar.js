@@ -5,7 +5,7 @@ import logo from '../assets/Logo.png';
 //Navbar section
 function Navbar() {
   return (
-    <div className="py-2 pl-20 flex flex-row">
+    <div className="pt-2 pb-4 pl-20 flex flex-row shadow-lg">
       {/* Divided the navbar into 3 parts */}
       {/* Part 1: The logo */}
       <img src={logo} classname="w-full"/>
