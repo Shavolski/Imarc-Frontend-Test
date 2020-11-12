@@ -9,7 +9,7 @@ function Navbar({ fixed }) {
       {/* Divided the navbar into 3 parts */}
       <div className="flex justify-between py-2 pl-2 pr-4 lg:pr-0 lg:pl-0">
         {/* Part 1: The logo */}
-        <img src={logo} classname="w-full" alt="logo image"/>
+        <img src={logo} classname="w-full" alt="logo"/>
         <button
           className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded block lg:hidden outline-none focus:outline-none"
           type="button"
