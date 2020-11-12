@@ -9,10 +9,10 @@ function Footer() {
   const onClick = () => setShowResults(true)
 
   return (
-    <div className="mt-12 mx-48">
+    <div className="mt-12 md:mx-48">
       {/* Bottom top of the fotter bar */}
-      <div className="main_footer h-40 flex">
-        <div class="w-2/6">
+      <div className="main_footer md:h-40 flex flex-col md:flex-row ml-4 md:ml-0">
+        <div class="md:w-2/6 ml-24 md:ml-0">
           <img src={logo} />
           <img src={social_icons} className="pt-4"/>
         </div>
