@@ -3,7 +3,7 @@ This will be your guide to show you my thought process when handling this task. 
 
 
 ### Served and deployed on...
-Github | Heroku
+Github | Netlify
 
 ### Tech used on this site:
 * React
@@ -40,7 +40,7 @@ It is pausible to create responsive components thanks to the grid and flexbox sy
 ![pic 1](src/instruction_images/7.png)
 
 ### Step 8
-Prepared the project for deployment on Heroku.
+Prepared the project for deployment on Netlify and it is LIVE!.
 ![pic 1](src/instruction_images/6.png)
 
 ## Here's my contact info in case you have more queries.
