@@ -41,7 +41,7 @@ It is pausible to create responsive components thanks to the grid and flexbox sy
 
 ### Step 8
 Prepared the project for deployment on Netlify and it is LIVE!.
-![pic 1](src/instruction_images/6.png)
+![pic 1](src/instruction_images/8.png)
 
 ## Here's my contact info in case you have more queries.
 * **[stevemarvins.dev@gmail.com](https://www.stevemarvins.dev@gmail.com/)**
