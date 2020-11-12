@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import book_1 from '../assets/book_1.svg';
 import book_2 from '../assets/book_2.svg';
 import book_3 from '../assets/book_3.svg';
