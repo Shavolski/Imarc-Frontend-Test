@@ -10,12 +10,14 @@ function Footer() {
 
   return (
     <div className="mt-12 mx-48">
+      {/* Bottom top of the fotter bar */}
       <div className="main_footer h-40 flex">
         <div class="w-2/6">
           <img src={logo} />
           <img src={social_icons} className="pt-4"/>
         </div>
 
+          {/* Company info with toggle functions */}
         <div class="w-1/6 pr-10">
           <input type="submit" value="Company" onClick={onClick} className="text-sm bg-white font-semibold mb-4"/>
           { showResults ? <Results_company /> : null }
@@ -37,6 +39,8 @@ function Footer() {
         </div>
 
       </div>
+
+      {/* Bottom part of the footer */}
       <div className="my-4 flex">
         <div class="w-5/6 p-2">
           <p className="font-light text-xs">@ 2020 Imarc</p>
@@ -53,7 +57,7 @@ function Footer() {
 };
 export default Footer;
 
-
+//Result section when either button is clicked
 const Results_company = () => (
   <div id="results" className="font-light text-xs">
     <ul>
