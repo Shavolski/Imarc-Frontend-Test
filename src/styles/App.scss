@@ -28,9 +28,31 @@ $pallete_9: #FF5246;
     color: $pallete_9;
   }
 }
+
 .landing-page{
   background-image: url(../assets/landing_page.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.grid_1{
+  background-image: url(../assets/grid_1.png);
+  background-size: cover;
+}
+.grid_2{
+  background-image: url(../assets/grid_2.png);
+  background-size: cover;
+}
+.grid_3{
+  background-image: url(../assets/grid_3.png);
+  background-size: cover;
+}
+.grid_4{
+  background-image: url(../assets/grid_4.png);
+  background-size: cover;
+}
+.grid_5{
+  background-image: url(../assets/grid_5.png);
+  background-size: cover;
 }
