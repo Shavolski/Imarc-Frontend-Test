@@ -9,7 +9,7 @@ function Navbar({ fixed }) {
       {/* Divided the navbar into 3 parts */}
       <div className="flex justify-between py-2 pl-2 pr-4 lg:pr-0 lg:pl-0">
         {/* Part 1: The logo */}
-        <img src={logo} classname="w-full"/>
+        <img src={logo} classname="w-full" alt="logo image"/>
         <button
           className="text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded block lg:hidden outline-none focus:outline-none"
           type="button"
@@ -30,10 +30,10 @@ function Navbar({ fixed }) {
       <div className={"lg:mx-12 lg:py-1 grid lg:flex lg:flex-row items-center" + (menuOpen ? " flex" : " hidden")} id="example-navbar-info">
         {/* Part 2: Navigation links */}
         <div className="lg:flex lg:flex-row lg:items-center">
-          <a href="#" className="flex-1 block px-8 bold_text font-semibold text-sm text-right ">About</a>
-          <a href="#" className="flex-1 block px-8 bold_text font-semibold text-sm text-right ">Blog</a>
-          <a href="#" className="flex-1 block px-8 bold_text font-semibold text-sm text-right ">Resources</a>
-          <a href="#" className="flex-1 block px-8 bold_text font-semibold text-sm text-right ">Contact</a>
+          <a href="/#" className="flex-1 block px-8 bold_text font-semibold text-sm text-right ">About</a>
+          <a href="/#" className="flex-1 block px-8 bold_text font-semibold text-sm text-right ">Blog</a>
+          <a href="/#" className="flex-1 block px-8 bold_text font-semibold text-sm text-right ">Resources</a>
+          <a href="/#" className="flex-1 block px-8 bold_text font-semibold text-sm text-right ">Contact</a>
         </div>
 
         {/* Part 3: The Trial button */}

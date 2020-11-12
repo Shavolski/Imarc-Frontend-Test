@@ -12,29 +12,29 @@ function Footer() {
       {/* Bottom top of the fotter bar */}
       <div className="main_footer md:h-40 flex flex-col md:flex-row ml-4 md:ml-0">
         <div class="md:w-2/6 ml-24 md:ml-0">
-          <img src={logo} />
-          <img src={social_icons} className="pt-4"/>
+          <img src={logo} alt="logo image"/>
+          <img src={social_icons} className="pt-4" alt="social icons"/>
         </div>
 
           {/* Company info with toggle functions */}
         <div class="w-1/6 pr-10">
           <input type="submit" value="Company" onClick={onClick} className="text-sm bg-white font-semibold mb-4"/>
-          { showResults ? <Results_company /> : null }
+          { showResults ? <ResultsCompany /> : null }
         </div>
 
         <div class="w-1/6 pr-10">
           <input type="submit" value="Blog" onClick={onClick} className="text-sm bg-white font-semibold mb-4"/>
-          { showResults ? <Results_blog /> : null }
+          { showResults ? <ResultsBlog /> : null }
         </div>
 
         <div class="w-1/6 pr-10">
           <input type="submit" value="Resources" onClick={onClick} className="text-sm bg-white font-semibold mb-4"/>
-          { showResults ? <Results_resources /> : null }
+          { showResults ? <ResultsResources /> : null }
         </div>
 
         <div class="w-3/6 pr-10">
           <input type="submit" value="Contact" onClick={onClick} className="text-sm bg-white font-semibold mb-4"/>
-          { showResults ? <Results_contact /> : null }
+          { showResults ? <ResultsContact /> : null }
         </div>
 
       </div>
@@ -57,7 +57,7 @@ function Footer() {
 export default Footer;
 
 //Result section when either button is clicked
-const Results_company = () => (
+const ResultsCompany = () => (
   <div id="results" className="font-light text-xs">
     <ul>
       <li>Leadership</li>
@@ -66,7 +66,7 @@ const Results_company = () => (
   </div>
 )
 
-const Results_blog = () => (
+const ResultsBlog = () => (
   <div id="results" className="font-light text-xs">
     <ul>
       <li>Top blogs</li>
@@ -75,7 +75,7 @@ const Results_blog = () => (
   </div>
 )
 
-const Results_resources = () => (
+const ResultsResources = () => (
   <div id="results" className="font-light text-xs">
     <ul>
       <li>Test cases</li>
@@ -84,7 +84,7 @@ const Results_resources = () => (
   </div>
 )
 
-const Results_contact = () => (
+const ResultsContact = () => (
   <div id="results" className="font-light text-xs">
     <ul>
       <li>Email</li>

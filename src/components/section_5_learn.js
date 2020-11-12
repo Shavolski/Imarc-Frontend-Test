@@ -15,7 +15,7 @@ function Learn() {
         {/* Leadership button */}
         <div className="flex content-center flex-wrap ml-4 lg:ml-40">
           <div className="w-1/3">
-            <img src={book_1} />
+            <img src={book_1} alt="svg1"/>
             <button className="mini_button flex flex-row font-normal px-3 mt-3 -ml-8 text-center">
               <p>
                 MOBILE DEVICES
@@ -26,7 +26,7 @@ function Learn() {
 
           {/* Tech& Dev button */}
           <div className="w-1/3">
-            <img src={book_2}/>
+            <img src={book_2} alt="svg2"/>
             <button className="mini_button flex flex-row font-normal px-3 mt-3 text-center">
               <p>
                 EBOOKS
@@ -37,7 +37,7 @@ function Learn() {
 
           {/* Compliance button */}
           <div className="w-1/3">
-            <img src={book_3}/>
+            <img src={book_3} alt="svg3"/>
             <button className="mini_button flex flex-row font-normal px-3 mt-3 -ml-6 text-center">
               LIVE LEARNING
             </button>
