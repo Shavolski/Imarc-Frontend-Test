@@ -4,7 +4,7 @@ import Landing_page from './components/section_2_landing_page.js';
 import Mini from './components/section_3_mini_links.js';
 import Grid from './components/section_4_grid.js';
 import Learn from './components/section_5_learn.js';
-import Learn from './components/section_6_footer.js';
+import Footer from './components/section_6_footer.js';
 
 function App() {
   return (
