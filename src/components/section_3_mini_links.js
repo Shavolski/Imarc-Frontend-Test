@@ -5,8 +5,11 @@ import ReactDOM from 'react-dom';
 function Mini() {
   return (
     <div className="my-20 mx-48">
+      {/* This section has 2 main parts, the outer and the inner layer */}
       <div className="mini_title text-center text-3xl mb-8">We’re known for:</div>
 
+      {/* This handles the 3 main links */}
+      {/* Leadership button */}
       <div className="flex content-center flex-wrap ml-20">
         <div className="w-1/3 flex flex-row ">
           <svg xmlns="http://www.w3.org/2000/svg" width="84.97" height="57.074" viewBox="0 0 84.97 57.074">
@@ -20,7 +23,7 @@ function Mini() {
         </div>
 
 
-
+        {/* Tech& Dev button */}
         <div className="w-1/3 flex flex-row ">
           <svg xmlns="http://www.w3.org/2000/svg" width="60.541" height="53.584" viewBox="0 0 60.541 53.584">
             <g id="Group_2155" data-name="Group 2155" transform="translate(-201.749 100.729)">
@@ -41,7 +44,7 @@ function Mini() {
         </div>
 
 
-
+        {/* Compliance button */}
         <div className="w-1/3 flex flex-row ">
           <svg xmlns="http://www.w3.org/2000/svg" width="46.873" height="62.246" viewBox="0 0 46.873 62.246">
             <g id="Group_2153" data-name="Group 2153" transform="translate(-413.756 83.185)">
