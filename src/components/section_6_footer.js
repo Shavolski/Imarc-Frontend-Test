@@ -5,7 +5,13 @@ import ReactDOM from 'react-dom';
 function Footer() {
   return (
     <div className="mt-12 mx-48">
-      <div className="main_footer">Footer</div>
+      <div className="main_footer h-40 bg-gray-400 flex">
+        <div class="w-2/6 p-2 bg-gray-400 text-center">.w-1/6</div>
+        <div class="w-1/6 p-2 bg-gray-500 text-center">.w-5/6</div>
+        <div class="w-1/6 p-2 bg-gray-400 text-center">.w-1/6</div>
+        <div class="w-1/6 p-2 bg-gray-500 text-center">.w-5/6</div>
+        <div class="w-3/6 p-2 bg-gray-400 text-center">.w-1/6</div>
+      </div>
       <div className="my-4">Footer</div>
     </div>
   );
