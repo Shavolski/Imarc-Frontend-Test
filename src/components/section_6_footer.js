@@ -15,11 +15,9 @@ function Footer() {
           <img src={social_icons} className="pt-4"/>
         </div>
 
-        <div class="w-1/6 p-2 bg-gray-500">
-          <div className="pl-4 text-sm">
-            <input type="submit" value="Developer" onClick={onClick} className="pl-4 text-sm"/>
-            { showResults ? <Results_developer /> : null }
-          </div>
+        <div class="w-1/6 pr-2 bg-gray-500">
+          <input type="submit" value="Company" onClick={onClick} className="text-lg bg-white font-semibold mb-4"/>
+          { showResults ? <Results_developer /> : null }
         </div>
 
         <div class="w-1/6 p-2 bg-gray-400 text-center">.w-1/6</div>
@@ -34,10 +32,10 @@ export default Footer;
 
 
 const Results_developer = () => (
-  <div id="results" className="search-results">
+  <div id="results" className="font-light">
     <ul>
-      <li>bb</li>
-      <li>bb</li>
+      <li>Leadership</li>
+      <li>Newsroom</li>
     </ul>
   </div>
 )
