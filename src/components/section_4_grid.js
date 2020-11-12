@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 function Grid() {
   return (
     <div className="flex mb-10 mx-48">
+      {/* Grid 1 */}
       <div className="grid_1 w-1/3 py-64 relative m-1">
         <div className="absolute bottom-0 right-0 h-20 w-full bg-1 font-semibold">
           <p className="pl-4 pt-2 text-white w-48">LEADERSHIP DEVELOPMENT</p>
@@ -12,6 +13,7 @@ function Grid() {
         </div>
       </div>
 
+      {/* Grid 2 */}
       <div className="w-1/3">
         <div className="grid_2 h-1/2 px-2 py-32 my-1 relative">
           <div className="absolute bottom-0 right-0 h-20 w-full bg-2 font-semibold">
@@ -28,6 +30,7 @@ function Grid() {
         </div>
       </div>
 
+      {/* Grid 3 */}
       <div className="w-1/3 flex flex-col">
         <div className="grid_4 flex-1 px-4 m-1 relative">
           <div className="absolute bottom-0 right-0 h-20 w-full bg-3 font-semibold">
