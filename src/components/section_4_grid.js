@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 //Grid section
 function Grid() {
   return (
-    <div className="flex mb-10 mx-48">
+    <div className="flex mb-6 mx-48">
       {/* Grid 1 */}
       <div className="grid_1 w-1/3 py-64 relative m-1">
         <div className="absolute bottom-0 right-0 h-20 w-full bg-1 font-semibold">
