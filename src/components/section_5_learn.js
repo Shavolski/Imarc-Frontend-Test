@@ -8,15 +8,15 @@ import book_3 from '../assets/book_3.svg';
 function Learn() {
   return (
     <div className="bg-5 my-4">
-      <div className="py-10 mx-48">
+      <div className="py-10 lg:mx-48">
         {/* This section has 2 main parts, the outer and the inner layer */}
-        <div className="mini_title text-center text-3xl mb-8">Ways you can learn</div>
+        <div className="mini_title text-center text-xl lg:text-3xl mb-8">Ways you can learn</div>
 
         {/* This handles the 3 main links */}
         {/* Leadership button */}
-        <div className="flex content-center flex-wrap ml-40">
+        <div className="flex content-center flex-wrap ml-4 lg:ml-40">
           <div className="w-1/3">
-            <img src={book_1}/>
+            <img src={book_1} />
             <button className="mini_button flex flex-row font-normal px-3 mt-3 -ml-8 text-center">
               <p>
                 MOBILE DEVICES
