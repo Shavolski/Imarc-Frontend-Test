@@ -37,7 +37,7 @@ Because I was using TailwindCSS, it was really easy creating grids using flexbox
 
 ### Step 7
 It is pausible to create responsive components thanks to the grid and flexbox system offered by tailwind. We can go alot deeper on this topic but this is a short project.
-![pic 1](src/instruction_images/6.png)
+![pic 1](src/instruction_images/7.png)
 
 ### Step 8
 Prepared the project for deployment on Heroku.
