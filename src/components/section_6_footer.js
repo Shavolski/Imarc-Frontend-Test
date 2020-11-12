@@ -4,8 +4,9 @@ import ReactDOM from 'react-dom';
 //Footer section
 function Footer() {
   return (
-    <div>
-      <h1>Footer</h1>
+    <div className="mt-12 mx-48">
+      <div className="main_footer">Footer</div>
+      <div className="my-4">Footer</div>
     </div>
   );
 };
