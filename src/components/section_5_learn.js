@@ -12,13 +12,11 @@ function Learn() {
         {/* This handles the 3 main links */}
         {/* Leadership button */}
         <div className="flex content-center flex-wrap ml-20">
-          <div className="w-1/3 flex flex-row ">
-            <svg xmlns="http://www.w3.org/2000/svg" width="84.97" height="57.074" viewBox="0 0 84.97 57.074">
-              <path id="Path_496" data-name="Path 496" d="M58.627-69.473c5.009-.154,9.077-4.669,9.077-10.076s-4.068-9.194-9.077-8.458-9.081,5.238-9.081,10.069A8.6,8.6,0,0,0,58.627-69.473Zm7.88,3.832a15.428,15.428,0,0,0-7.88-1.98c-9.022.172-16.338,6.565-16.338,14.285a13.389,13.389,0,0,0,1.68,6.369c4.694.978,9.564,1.809,14.554,2.44a21.588,21.588,0,0,1-.355-3.915A22.235,22.235,0,0,1,66.507-65.641ZM83.8-70.5A11.754,11.754,0,0,0,95.561-82.238,11.743,11.743,0,0,0,83.8-93.968a11.743,11.743,0,0,0-11.756,11.73A11.754,11.754,0,0,0,83.8-70.5Zm21.161,22.059c0-10.888-9.476-19.713-21.161-19.713S62.654-59.33,62.654-48.442a18.5,18.5,0,0,0,2.169,8.7c6.12.554,12.474.851,18.975.851s12.864-.3,18.983-.851A18.42,18.42,0,0,0,104.959-48.442ZM118-79.249c0-4.831-4.068-9.334-9.081-10.069s-9.077,3.046-9.077,8.458,4.068,9.922,9.077,10.076A8.6,8.6,0,0,0,118-79.249Zm-8.622,29.5a21.588,21.588,0,0,1-.355,3.915c4.99-.631,9.86-1.462,14.554-2.44a13.389,13.389,0,0,0,1.68-6.369c0-7.72-7.316-14.113-16.338-14.285a15.428,15.428,0,0,0-7.88,1.98A22.235,22.235,0,0,1,109.38-49.753Z" transform="translate(-41.289 94.968)" fill="none" stroke="#ff5246" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-            </svg>
+          <div className="w-1/3 ">
+
             <button className="mini_button flex flex-row font-normal px-3 mt-3 w-64 text-left">
               <p>
-                LEADERSHIP DEVELOPMENT <span className="mini_svg"> &#9654;</span>
+                MOBILE DEVICES
               </p>
             </button>
           </div>
@@ -26,20 +24,10 @@ function Learn() {
 
           {/* Tech& Dev button */}
           <div className="w-1/3 flex flex-row ">
-            <svg xmlns="http://www.w3.org/2000/svg" width="60.541" height="53.584" viewBox="0 0 60.541 53.584">
-              <g id="Group_2155" data-name="Group 2155" transform="translate(-201.749 100.729)">
-                <path id="Path_500" data-name="Path 500" d="M239.171-95.434a1.262,1.262,0,0,0-1.261,1.262,1.261,1.261,0,0,0,1.261,1.261,1.261,1.261,0,0,0,1.262-1.261A1.262,1.262,0,0,0,239.171-95.434Z" transform="translate(6.388 0.78)" fill="#8a8a8a" stroke="#db5935" stroke-width="1"/>
-                <path id="Path_501" data-name="Path 501" d="M246.241-95.434a1.262,1.262,0,0,0-1.262,1.262,1.261,1.261,0,0,0,1.262,1.261,1.261,1.261,0,0,0,1.262-1.261A1.262,1.262,0,0,0,246.241-95.434Z" transform="translate(7.672 0.78)" fill="#8a8a8a" stroke="#db5935" stroke-width="1"/>
-                <line id="Line_371" data-name="Line 371" x1="58.541" transform="translate(202.749 -88.036)" fill="none" stroke="#db5935" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                <rect id="Rectangle_1748" data-name="Rectangle 1748" width="58.541" height="51.584" transform="translate(202.749 -99.729)" fill="none" stroke="#db5935" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                <line id="Line_372" data-name="Line 372" x1="4.88" y2="22.826" transform="translate(230.105 -79.046)" fill="none" stroke="#db5935" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                <path id="Path_502" data-name="Path 502" d="M234.828-79.056l9.41,7.667-9.41,7.667" transform="translate(5.828 3.756)" fill="none" stroke="#db5935" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                <path id="Path_503" data-name="Path 503" d="M221.657-79.056l-9.41,7.667,9.41,7.667" transform="translate(1.726 3.756)" fill="none" stroke="#db5935" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-              </g>
-            </svg>
+
             <button className="mini_button flex flex-row font-normal px-3 mt-3 w-64 text-left">
               <p>
-                TECHNOLOGY & DEVELOPMENT <span className="mini_svg"> &#9654;</span>
+                EBOOKS
               </p>
             </button>
           </div>
@@ -56,7 +44,7 @@ function Learn() {
             </svg>
 
             <button className="mini_button flex flex-row font-normal py-2 px-3 mt-3 w-64 text-left">
-              COMPLIANCE <span className="mini_svg">  &#9654;</span>
+              LIVE LEARNING
             </button>
           </div>
 
