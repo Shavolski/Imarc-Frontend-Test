@@ -5,6 +5,8 @@ $pallete_4: #EBE9DF;
 $pallete_5: #F0AE43;
 $pallete_6: #DB5935;
 $pallete_7: #DA3467;
+$pallete_8: #141C36;
+$pallete_9: #FF5246;
 
 .bold_text{
   color: $pallete_1;
@@ -17,6 +19,15 @@ $pallete_7: #DA3467;
   background-color: $pallete_6;
 }
 
+.mini_title{
+  color: $pallete_1;
+}
+.mini_button{
+  color: $pallete_8;
+  .mini_svg{
+    color: $pallete_9;
+  }
+}
 .landing-page{
   background-image: url(../assets/landing_page.png);
   background-size: cover;
