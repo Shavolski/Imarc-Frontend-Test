@@ -37,7 +37,17 @@ function Footer() {
         </div>
 
       </div>
-      <div className="my-4">Footer</div>
+      <div className="my-4 flex">
+        <div class="w-5/6 p-2">
+          <p className="font-light text-xs">@ 2020 Imarc</p>
+        </div>
+        <div class="w-1/6 p-2 text-center">
+          <p className="font-light text-xs">Security</p>
+        </div>
+        <div class="w-1/6 p-2 text-center">
+          <p className="font-light text-xs">Privacy Policy</p>
+        </div>
+      </div>
     </div>
   );
 };
